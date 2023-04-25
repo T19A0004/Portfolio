@@ -87,8 +87,13 @@ nav ul li a:hover::after {
   font-size: 60px;
 }
 
-.header-text h1 span {
+.lng-name {
   color: var(--blue);
+  font-size: 60px;
+}
+.lng-and {
+  color: var(--white);
+  font-size: 60px;
 }
 
 /* -------------About------------- */
@@ -405,8 +410,14 @@ nav .fa-solid {
     background-image: url(images/fon2.jpg);
   }
   .header-text {
-    margin-top: 100%;
+    margin-top: 40%;
     font-size: 16px;
+  }
+  .lng-and {
+    font-size: 30px;
+  }
+  .lng-name {
+    font-size: 35px;
   }
   .header-text h1 {
     font-size: 30px;
