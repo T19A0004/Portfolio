@@ -74,7 +74,7 @@ const allLang = ["en", "jp"];
 
 select.addEventListener("change", changeURLLanguage);
 
-// redirect to url
+// redirect to url above
 function changeURLLanguage() {
   let lang = select.value;
   location.href = window.location.pathname + "#" + lang;
